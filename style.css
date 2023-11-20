@@ -45,3 +45,15 @@ nav ul{
     flex-direction: column;
     row-gap: 1rem;
 }
+
+#conteudo{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteudo p{
+    width: 80%;
+}
