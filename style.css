@@ -35,7 +35,7 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: beige;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -55,7 +55,8 @@ nav ul{
     flex-direction: column;
     align-items: center;
     row-gap: 1rem;
-    padding-top: 1rem   ;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 #conteudo p{
@@ -63,6 +64,14 @@ nav ul{
 }
 
 figure{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+figure img{
     width: 70%;
 }
 figure figcaption{
@@ -80,4 +89,8 @@ figure figcaption{
     flex-direction: column;
     row-gap: 1rem;
     padding: 1rem 0;
+}
+
+#fotoCorrimao img{
+    width: 80%;
 }
